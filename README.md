@@ -55,10 +55,12 @@ sequenceDiagram
 
 For a deep dive into each component's technical specifications and layout, please review the following files:
 
-* 🛠️ **[architecture.md](file:///c:/Users/Abbas/dev/testrepo/architecture.md):** System architecture, database schema design, webhook handling, and Telegram token encryption.
-* 📚 **[knowledge_base.md](file:///c:/Users/Abbas/dev/testrepo/knowledge_base.md):** Ingestion mechanics, PDF/TXT parsing rules, recursive chunking parameters, and vector generation.
-* 🛡️ **[security_and_billing.md](file:///c:/Users/Abbas/dev/testrepo/security_and_billing.md):** Subscription tiers (Starter vs. Growth), request/token monitoring, rate-limiting, and spam prevention rules.
-* 📊 **[dashboard_ux.md](file:///c:/Users/Abbas/dev/testrepo/dashboard_ux.md):** React dashboard layout, metrics design, plan switching flow, and non-technical admin styling guidelines.
+* 🛠️ **[architecture.md](file:///c:/Users/Abbas/dev/testrepo/docs/architecture.md):** System architecture, database schema design, webhook handling, and Telegram token encryption.
+* 📚 **[knowledge_base.md](file:///c:/Users/Abbas/dev/testrepo/docs/knowledge_base.md):** Ingestion mechanics, PDF/TXT parsing rules, recursive chunking parameters, and vector generation.
+* 🛰️ **[telegram_integration.md](file:///c:/Users/Abbas/dev/testrepo/docs/telegram_integration.md):** Webhook setup, verification flows, user command router, and fallback routines.
+* 🛡️ **[security_and_billing.md](file:///c:/Users/Abbas/dev/testrepo/docs/security_and_billing.md):** Subscription tiers (Starter vs. Growth), request/token monitoring, rate-limiting, and spam prevention rules.
+* 📊 **[dashboard_ux.md](file:///c:/Users/Abbas/dev/testrepo/docs/dashboard_ux.md):** React dashboard layout, metrics design, plan switching flow, and non-technical admin styling guidelines.
+
 
 ---
 
