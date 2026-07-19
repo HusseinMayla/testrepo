@@ -1,9 +1,20 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { DashboardLayout } from './components/layout/DashboardLayout';
+import { Dashboard, BotSettings, KnowledgeBase, Subscription } from './pages';
+
 function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center">
-      <h1 className="text-3xl font-bold">Hello Tailwind!</h1>
-    </div>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<DashboardLayout />}>
+          <Route index element={<Dashboard />} />
+          <Route path="settings" element={<BotSettings />} />
+          <Route path="knowledge" element={<KnowledgeBase />} />
+          <Route path="subscription" element={<Subscription />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
